@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
 import { FormsModule } from '@angular/forms';
 import { AboutExtraComponent } from './about-extra/about-extra.component';
+import { ErrorsComponent } from './errors/errors.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AboutExtraComponent } from './about-extra/about-extra.component';
     HomeComponent,
     PostsComponent,
     AboutExtraComponent,
+    ErrorsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
